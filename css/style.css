@@ -1,0 +1,26 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+} 
+
+.content {
+    position: absolute;
+    max-width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.column_squeeze {
+    padding: 5px;
+}
+
+[class*="col-"] {
+    border: 1px solid black;
+    background-color: rgb(255,192,203);
+}
+
+.column_styling {
+    border: 1px solid white;
+    background-color: rgb(240,127,128);
+}
