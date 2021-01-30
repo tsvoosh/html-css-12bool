@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+/* debug : add class debug to body if needed*/
+
+.debug .row [class*="col-"] {
+    border: 1px solid blue;
+}
+
 /* Use this with nested columns, using clearfix could collapse the structure having more than one clear both. */
 
 .clear_left {
@@ -82,4 +88,54 @@
 
 .col-12 {
     width : calc((100% / 12) * 12);
+}
+
+/* Offsets  */
+
+.col-offset-1 {
+    margin-left : calc((100% / 12) * 1);
+}
+
+.col-offset-2 {
+    margin-left : calc((100% / 12) * 2);
+}
+
+.col-offset-3 {
+    margin-left : calc((100% / 12) * 3);
+}
+
+.col-offset-4 {
+    margin-left : calc((100% / 12) * 4);
+}
+
+.col-offset-5 {
+    margin-left : calc((100% / 12) * 5);
+}
+
+.col-offset-6 {
+    margin-left : calc((100% / 12) * 6);
+}
+
+.col-offset-7 {
+    margin-left : calc((100% / 12) * 7);
+}
+
+.col-offset-8 {
+    margin-left : calc((100% / 12) * 8);
+}
+
+.col-offset-9 {
+    margin-left : calc((100% / 12) * 9);
+}
+
+.col-offset-10 {
+    margin-left : calc((100% / 12) * 10);
+}
+
+.col-offset-11 {
+    margin-left : calc((100% / 12) * 11);
+}
+
+.col-offset-12 {
+    margin-left : calc((100% / 12) * 12);
 }
