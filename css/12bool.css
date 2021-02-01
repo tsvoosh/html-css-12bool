@@ -39,7 +39,6 @@
 [class*="col-"] {
     float: left;
     position: relative;
-    height: 150px;
 }
 
 .col-1 {
